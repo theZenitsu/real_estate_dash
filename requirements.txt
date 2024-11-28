@@ -1,0 +1,6 @@
+streamlit
+pandas
+sqlalchemy
+psycopg2-binary
+faker
+plotly>=5.0.0
