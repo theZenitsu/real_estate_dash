@@ -120,6 +120,7 @@ boxplot_city_price = px.box(
 )
 st.plotly_chart(boxplot_city_price)
 
+
 # Equipment Analysis
 st.subheader("Equipment Analysis: Equipment Distribution")
 equipment_data = (
