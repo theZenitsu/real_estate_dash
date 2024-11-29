@@ -64,7 +64,7 @@ if selected_equipments:
 st.subheader(f"Filtered Listings ({len(data)} results)")
 st.dataframe(data)
 
-# Add download button
+# download button
 csv = data.to_csv(index=False).encode('utf-8')
 st.download_button(
     label="Download data as CSV",
