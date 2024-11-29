@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 import streamlit as st
 
 # Load database URL (use st.secrets for Streamlit Cloud)
-DATABASE_URL = st.secrets["database"]["url"]  # Use this for Streamlit secrets
+DATABASE_URL = st.secrets["real_estate"]["url"]  # Use this for Streamlit secrets
 # DATABASE_URL = "postgresql://postgres:anass@localhost:5432/real_estate"  # Hardcoded alternative
 
 # SQLAlchemy setup
